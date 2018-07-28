@@ -1,0 +1,78 @@
+{
+  "name": "homeRun",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "precommit": "npm run lint && npm run test",
+    "avdList": "cd ~/Library/Android/sdk/tools/bin && ./avdmanager list avd",
+    "emulator": "cd ~/Library/Android/sdk/tools && ./emulator -avd Nexus_5X_API_27",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "standard --verbose | snazzy",
+    "deploy": "cd android && ./gradlew assembleRelease",
+    "buildAndroid": "cd android && ENVFILE=.env ./gradlew build"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "prop-types": "^15.6.2",
+    "react": "16.3.1",
+    "react-native": "^0.55.4",
+    "react-native-config": "^0.11.5",
+    "react-native-fast-image": "^4.0.14",
+    "react-native-image-picker": "^0.26.10",
+    "react-native-indicators": "^0.12.0",
+    "react-native-modal-dropdown": "^0.6.2",
+    "react-native-progressive-image": "^1.0.4",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^1.5.12",
+    "react-navigation-redux-helpers": "^1.1.2",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.4",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-react": "^7.9.1",
+    "eslint-plugin-standard": "^3.1.0",
+    "husky": "^0.14.3",
+    "jest": "22.4.3",
+    "moxios": "^0.4.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.4.1",
+    "react-test-renderer": "16.3.1",
+    "redux-mock-store": "^1.5.3",
+    "snazzy": "^7.1.1"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "env": [
+      "jest"
+    ]
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "./__tests__/enzyme_setup.js"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-navigation)"
+    ],
+    "preset": "react-native",
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "setupFiles": [
+      "./__tests__/enzyme_setup.js"
+    ]
+  }
+}

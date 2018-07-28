@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Heading renders as expected 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingBottom": 5,
+      "paddingLeft": 15,
+      "paddingRight": 15,
+      "paddingTop": 20,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#7ca549",
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Fresh Food
+  </Text>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[MockFunction]}
+    style={
+      Object {
+        "alignSelf": "flex-end",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#767676",
+          "paddingLeft": 5,
+        }
+      }
+    >
+      View More
+    </Text>
+    <Icon
+      allowFontScaling={false}
+      name="chevron-right"
+      size={22}
+      style={
+        Object {
+          "color": "#767676",
+          "paddingLeft": 5,
+        }
+      }
+    />
+  </TouchableOpacity>
+</View>
+`;

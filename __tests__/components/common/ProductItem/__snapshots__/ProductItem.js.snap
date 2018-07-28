@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "padding": 15,
+      "width": 150,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 120,
+          "marginBottom": 5,
+          "width": 120,
+        },
+        Object {
+          "overflow": "hidden",
+        },
+      ]
+    }
+  >
+    <FastImageView
+      onFastImageError={undefined}
+      onFastImageLoad={undefined}
+      onFastImageLoadEnd={undefined}
+      onFastImageLoadStart={undefined}
+      onFastImageProgress={undefined}
+      resizeMode="contain"
+      source={
+        Object {
+          "priority": "normal",
+          "uri": "https://imagine6.convibo.com/product/54836/92313/original.jpeg",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#000",
+        "fontWeight": "bold",
+      }
+    }
+  >
+    £0.20
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#A1A1A1",
+      }
+    }
+  >
+    Bananas Loose
+  </Text>
+</View>
+`;

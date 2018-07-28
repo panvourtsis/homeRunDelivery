@@ -1,0 +1,23 @@
+{
+  "id": 28715,
+  "name": "Bakery",
+  "slug": "bakery-3d1223d1-518e-4f01-affd-efe212f1fcfc",
+  "position": "20.2",
+  "parent": 25970,
+  "children": [
+    28763,
+    28845,
+    28863,
+    28887,
+    28902,
+    28917,
+    28932,
+    29001
+  ],
+  "suppliers": [
+    "tesco"
+  ],
+  "image": "https://imagine7.convibo.com/category/28715/108811/normal.jpeg",
+  "image_large": "https://imagine7.convibo.com/category/28715/108811/normal.jpeg",
+  "classification": "household"
+}

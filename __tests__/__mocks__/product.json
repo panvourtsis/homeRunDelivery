@@ -1,0 +1,18 @@
+{
+  "id": 54836,
+  "min_quantity": "1.0",
+  "max_quantity": null,
+  "default_quantity": "1.0",
+  "quantity_step_size": 1,
+  "storage_temperature": null,
+  "purchasing_velocity": "406.0",
+  "name": "Bananas Loose",
+  "price": "0.2",
+  "supplier_slug": "tesco",
+  "primary_image_zoom_url": "https://imagine0.convibo.com/product/54836/92313/facebook_square.jpeg",
+  "primary_image_url": "https://imagine6.convibo.com/product/54836/92313/original.jpeg",
+  "measurement": 1,
+  "has_description": true,
+  "url": "https://homerun.delivery/p/54836",
+  "scooter_box_suitable": true
+}

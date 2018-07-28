@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing HomePicker renders as expected 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "flex": 1,
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }
+>
+  <ModalDropdown
+    animated={true}
+    defaultIndex={1}
+    defaultValue="tesco"
+    disabled={false}
+    dropdownStyle={
+      Object {
+        "height": 90,
+        "padding": 10,
+        "width": 100,
+      }
+    }
+    keyboardShouldPersistTaps="never"
+    onSelect={[Function]}
+    options={
+      Array [
+        "tesco",
+        "waitrose",
+      ]
+    }
+    scrollEnabled={true}
+    showsVerticalScrollIndicator={true}
+  >
+    <Component
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#A1A1A1",
+          }
+        }
+      >
+        tesco
+      </Text>
+      <Icon
+        allowFontScaling={false}
+        color="#A1A1A1"
+        name="chevron-down"
+        size={25}
+      />
+    </Component>
+  </ModalDropdown>
+</View>
+`;
